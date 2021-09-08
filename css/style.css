@@ -3,64 +3,183 @@
     padding: 0;
 }
 header{
-    height: 150px;
-    width: 100%;
-    background-color: #F0E5CF;
-    text-align: center;
-    font-size: 50px;
-}
-nav{
-    width: 25%;
-    height: 700px;
-    background-color: #3DB2FF;
-    text-align: center;
-    font-size: 50px;
-    float: left;
-}
-article{
-    width: 50%;
-    height: 700px;
-    background-color: #7FC8A9;
-    text-align: center;
-    font-size: 30px;
-    float: left;
-}
-aside{
-    height: 700px;
-    width: 25%;
-    background-color: #D5EEBB;
-    text-align: center;
-    font-size: 50px;
-    float: left;
-}
-article{
     overflow: hidden;
 }
-.header{
+.logo{
+    width: 20%;
     height: 100px;
-    width: 100%;
-    background-color: #5F7A61;
+    background-color:#80ED99;
     text-align: center;
-    font-size: 50px; 
+    font-size: 60px;
+    float: left;
+}
+.home{
+    width: 80%;
+    height: 100px;
+    background-color: #B97A95;
+    text-align: center;
+    font-size: 60px;
+    float: left;
+}
+.slide{
+    overflow: hidden;
+}
+.slide-one{
+    width: 30%;
+    height: 400px;
+    background-color: #8236CB;
+    float: left;
+}
+.slide-two{
+    width: 70%;
+    height: 400px;
+    background-color: #290FBA;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    float: left;
+}
+.image-one{
+    width: 100%;
+    height: 50%;
+    background-color: #E2C2B9;
+    text-align: center;
+}
+.image-two{
+    width: 100%;
+    height: 50%;
+    background-color: #BFD8B8;
+    text-align: center;
+}
+.content{
+    overflow: hidden;
+}
+.blog-content{
+    width: 50%;
+    height: 600px;
+    background-color: #E7EAB5;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+.paragraph-content{
+    width: 50%;
+    height: 600px;
+    background-color: #D4ECDD;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+.blog-one{
+    width: 100%;
+    height: 50%;
+    background-color: #345B63;
+    text-align: center;
+    font-size: 40px;
+}
+.blog-two{
+    width: 100%;
+    height: 50%;
+    background-color: #00A19D;
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph-one{
+    width: 100%;
+    height: 50%;
+    background-color: #FFF8E5;
+    text-align: center;
+    font-size: 40px;
+
+}
+.paragraph-two{
+    width: 100%;
+    height: 50%;
+    background-color: #FFB344;
+    text-align: center;
+    font-size: 40px;
 }
 .article{
-    height: 500px;
-    width: 100%;
-    background-color: #C2F784;
-    text-align: center;
-    font-size: 50px;
+    overflow: hidden;
 }
-.footer-one{
-    height: 100px;
-    width: 100%;
-    background-color: #FFF47D;
+.article-one{
+    width: 25%;
+    height: 300px;
+    background-color: #E05D5D;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    float: left;
+}
+.article-two{
+    width: 25%;
+    height: 300px;
+    background-color: #112031;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.article-three{
+    width: 25%;
+    height: 300px;
+    background-color: #E05D5D;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+.article-four{
+    width: 25%;
+    height: 300px;
+    background-color: #112031;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.bio{
+    overflow: hidden;
+}
+.bio-one{
+    width: 50%;
+    height: 600px;
+    background-color: yellowgreen;
+    float: left;
+}
+.bio-two{
+    width: 50%;
+    height: 600px;
+    background-color: #BFD8B8;
+    float: left;
+}
+.part-one{
+    width: 50%;
+    height: 600px;
+    background-color: aquamarine;
+    float: left;
+}
+.part-two{
+    width: 50%;
+    height: 600px;
+    background-color: cadetblue;
+    float: left;
+}
+.part-three{
+    width: 50%;
+    height: 600px;
+    background-color: #B97A95;
+    float: left;
+}
+.part-four{
+    width: 50%;
+    height: 600px;
+    background-color:#FDD2BF;
+    float: left;
 }
 footer{
-    height: 100px;
     width: 100%;
-    background-color: #3DB2FF;
+    height: 150px;
+    background-color: black;
     text-align: center;
+    color: white;
     font-size: 50px;
 }
